@@ -6,7 +6,7 @@ library(ggplot2)
 library(gganimate)
 
 # Load the dataset
-df <- read_csv("C:/Users/nagwa/Desktop/Data Visulization/Mcdonald/India_Menu.csv")
+df <- read_csv("India_Menu.csv")
 getwd()
 setwd("C:/Users/nagwa/Desktop/Data Visulization/Mcdonald/India_Menu.csv")
 ui <- navbarPage(
